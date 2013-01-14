@@ -1,0 +1,1 @@
+"use strict";var tempestApp=angular.module("tempestApp",[]).config(["$routeProvider",function(a){a.when("/",{templateUrl:"views/main.html",controller:"MainCtrl"}).otherwise({redirectTo:"/"})}]);"use strict",tempestApp.controller("MainCtrl",function(a){a.awesomeThings=["HTML5 Boilerplate","AngularJS","Testacular"]});
