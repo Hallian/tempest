@@ -1,0 +1,22 @@
+{
+  "name": "tempest",
+  "version": "0.0.0",
+  "description": "tempest =======",
+  "main": "server.js",
+  "dependencies": {
+    "irc": "~0.3.5",
+    "socket.io": "~0.9.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Hallian/tempest.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
