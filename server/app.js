@@ -41,7 +41,8 @@ server.listen(app.get('port'), function(){
 var irc = require('irc');
 var client = new irc.Client('halenstorm.com', 'Nikolas', {
   port : 6666,
-  password : "MahtiJonnet1"
+  password : "MahtiJonnet1",
+  lineTerminator : "\n"
 });
 
 io.sockets.on("connection", function (socket)
